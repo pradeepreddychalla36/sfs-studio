@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen w-full flex items-center justify-center pt-24 pb-12 overflow-hidden">
       {/* Background with Video Overlay Feel */}
       <div className="absolute inset-0 z-0">
         <img
@@ -30,12 +30,12 @@ export default function Hero() {
             <span className="h-[1px] w-8 bg-primary"></span>
           </div>
           
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif font-bold leading-[0.9] mb-8">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold leading-[0.95] mb-6">
             Turning <span className="italic font-normal">Moments</span><br />
             Into Timeless <span className="text-primary italic font-normal">Memories.</span>
           </h1>
           
-          <p className="text-white/70 text-lg md:text-xl max-w-xl mx-auto mb-12 font-serif italic leading-relaxed">
+          <p className="text-white/70 text-base md:text-lg max-w-xl mx-auto mb-10 font-serif italic leading-relaxed">
             Hyderabad’s premier luxury photography studio specializing in cinematic wedding storytelling and emotional legacies.
           </p>
 

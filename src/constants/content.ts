@@ -1,5 +1,5 @@
 export const STUDIO_INFO = {
-  name: "SFS Studio",
+  name: "sfsstudio",
   phone: "+91 9999999999", // Placeholder
   whatsapp: "919999999999", // Placeholder
   email: "hello@sfsstudio.com",
