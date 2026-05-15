@@ -14,8 +14,8 @@ export const STUDIO_INFO = {
 export const SERVICES = [
   {
     id: "wedding",
-    title: "Wedding Photography",
-    description: "Capturing the soul of your special day with cinematic precision and emotional depth.",
+    title: "Cinematic Wedding Photography",
+    description: "Capturing the soul of your special day with cinematic precision and emotional depth in Hyderabad.",
     image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop",
     link: "/services/wedding"
   },
@@ -48,19 +48,19 @@ export const PORTFOLIO_ITEMS = [
   {
     id: 1,
     category: "Weddings",
-    title: "The Royal Union",
+    title: "Heritage Wedding Film",
     image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2069&auto=format&fit=crop"
   },
   {
     id: 2,
     category: "Couples",
-    title: "Modern Love",
+    title: "Pre-Wedding Cinematic Story",
     image: "https://images.unsplash.com/photo-1522673607200-164848242c2c?q=80&w=2071&auto=format&fit=crop"
   },
   {
     id: 3,
     category: "Weddings",
-    title: "Traditional Elegance",
+    title: "Vibrant Hyderabad Wedding",
     image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop"
   },
   // Add more as needed
