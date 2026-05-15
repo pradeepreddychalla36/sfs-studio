@@ -1,17 +1,15 @@
 import { Link } from 'react-router-dom';
 import { Instagram, Youtube, MessageCircle } from 'lucide-react';
 import { STUDIO_INFO } from '../constants/content';
+import Logo from './Logo';
 
 export default function Footer() {
   return (
     <footer className="bg-black border-t border-white/10 pt-16 pb-8 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
         <div className="space-y-6">
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 border-2 gold-border flex items-center justify-center">
-              <span className="font-serif text-xl font-bold italic tracking-tighter">SFS</span>
-            </div>
-            <span className="uppercase tracking-[0.3em] text-sm font-semibold ml-2">Studio</span>
+          <Link to="/" className="flex items-center">
+            <Logo size="sm" className="w-16 h-16" />
           </Link>
           <p className="text-white/40 text-sm leading-relaxed font-light italic">
             Hyderabad’s premier luxury photography studio specializing in cinematic wedding storytelling and emotional legacies.
